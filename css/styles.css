@@ -1,14 +1,18 @@
 /* Fonts */
 /* Importar aquí la font */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 cuyos valores asigna por defecto el navegador. */
 
 /* Reset */
 * {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif;*/
+    font-family: 'Inconsolata', monospace;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +22,7 @@ cuyos valores asigna por defecto el navegador. */
     text-align: center;
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
-    font-size: 18px;
+    font-size: 25px;
 
 }
 
@@ -76,7 +80,7 @@ header nav {
     background: #bae8e8;
     /*width: 100%;*/
     padding: 30px;
-    box-shadow: 0 10px 35px 1px #272643;
+    box-shadow: 0 10px 25px 8px #272643;
     width: 640px;
     max-width: 100%;
 
@@ -103,6 +107,7 @@ body {
     height: 400px;
     width: 400px;
     border-radius: 100%;
+    box-shadow: 0 10px 25px 8px #272643;
 }
 
 section {
@@ -119,7 +124,7 @@ section {
 
 #inicio a {
     background: #272643;
-    color: #fbfbfb;
+    color: #bae8e8;
     border-radius: 20%;
     font-size: 20px;
     /*display: inline-block;*/
