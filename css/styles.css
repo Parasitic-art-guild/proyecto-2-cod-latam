@@ -1,13 +1,10 @@
-/* En este archivo escriban su CSS */
-
 /* Fonts */
 /* Importar aquí la font */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
+cuyos valores asigna por defecto el navegador. */
 
 /* Reset */
 * {
@@ -19,11 +16,20 @@
     scroll-behavior: smooth;
     line-height: 1.2;
     text-align: center;
-    //justify-content: center;
-    //rowvertical-align: middle;
+    /*justify-content: center;*/
+    /*rowvertical-align: middle;*/
     font-size: 18px;
-							
+
 }
+
+/* Pagina de donde obtengo la paleta de colores https://colors.muz.li/ */
+/* https://colors.muz.li/palette/272643/ffffff/e3f6f5/bae8e8/2c698d */
+/* #272643
+#ffffff
+#e3f6f5
+#bae8e8
+#2c698d
+*/
 
 
 h1 {
@@ -67,13 +73,13 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    background: #fbfbfb;
+    background: #bae8e8;
     /*width: 100%;*/
     padding: 30px;
-    box-shadow: 0 10px 15px 1px #5f5f5f;
-							width: 640px;
-							max-width: 100%;
-	
+    box-shadow: 0 10px 35px 1px #272643;
+    width: 640px;
+    max-width: 100%;
+
 }
 
 header nav a img {
@@ -85,11 +91,11 @@ body {
     /*antes 1200*/
 
     /*width: 100%;*/
-							width: 640px;
-							max-width: 100%;	
+    width: 640px;
+    max-width: 100%;
     margin: auto;
-    background: #fbfbfb;
-							
+    background: #2c698d;
+
 
 }
 
@@ -112,7 +118,7 @@ section {
 }
 
 #inicio a {
-    background: #af599e;
+    background: #272643;
     color: #fbfbfb;
     border-radius: 20%;
     font-size: 20px;
@@ -140,7 +146,7 @@ section {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    background: #fbfbfb;
+    background: #bae8e8;
     width: 100%;
     padding: 70px;
 }
@@ -156,12 +162,13 @@ section {
 }
 */
 footer p {
-    background: #af599e;
-    color: #fbfbfb;
-    height: 90px;
+    background: #131221;
+    color: #bae8e8;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: small;
 }
 
 
@@ -169,7 +176,7 @@ footer p {
     background-color: rgba(175, 89, 158, 0.3);
     border-radius: 10%;
     display: flexbox;
-    max-width:95%;
+    max-width: 95%;
 
 
 }
@@ -179,5 +186,5 @@ footer p {
 p {
     padding-bottom: 20px;
 
-						
+
 }
