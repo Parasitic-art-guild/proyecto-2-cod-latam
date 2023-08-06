@@ -70,7 +70,7 @@ a {
 }
 */
 
-header nav {
+header nav ul{
     position: fixed;
     display: flex;
     /*flex-direction:row;*/
@@ -90,10 +90,6 @@ header nav a img {
 }
 
 body {
-    /*max-width: 740px;*/
-    /*antes 1200*/
-
-    /*width: 100%;*/
     width: 640px;
     max-width: 100%;
     margin: auto;
@@ -136,17 +132,6 @@ section {
     align-items: center;
 }
 
-@media (min-width: 920px) {
-    #inicio ul {
-        flex-direction: row;
-        display: flex;
-        /*flex-direction:row;*/
-        justify-content: space-between;
-        align-items: center;
-    }
-
-
-}
 
 #contacto img {
     height: 90px;
@@ -197,4 +182,40 @@ footer p {
 
 p {
     padding-bottom: 20px;
+}
+
+/* ESCRITORIO COMPUTADORA */
+@media (min-width: 920px) {
+    #inicio ul {
+        flex-direction: row;
+        display: flex;
+        /*flex-direction:row;*/
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body {
+        width: max-content;
+        max-width: 100%;
+        margin: auto;
+        background: #2c698d;
+    }
+    
+    header nav ul{
+        position: fixed;
+        display: flex;
+        /*flex-direction:row;*/
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        background: #bae8e8;
+        /*width: 100%;*/
+        padding: 30px;
+        box-shadow: 0 10px 25px 8px #272643;
+        width: 100%;
+        /*max-width: 100%;*/
+    }
+    
+
+
 }
