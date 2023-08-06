@@ -19,7 +19,7 @@ cuyos valores asigna por defecto el navegador. */
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
     line-height: 1.2;
-    text-align: center;
+    /**text-align: center;*/
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
     font-size: 25px;
@@ -70,7 +70,7 @@ a {
 }
 */
 
-header nav ul{
+header nav ul {
     position: fixed;
     display: flex;
     /*flex-direction:row;*/
@@ -94,6 +94,7 @@ body {
     max-width: 100%;
     margin: auto;
     background: #2c698d;
+    text-align: center;
 }
 
 section {
@@ -148,6 +149,7 @@ section {
     background: #bae8e8;
     width: 100%;
     padding: 70px;
+    
 }
 
 /*
@@ -192,30 +194,29 @@ p {
         /*flex-direction:row;*/
         justify-content: space-between;
         align-items: center;
+        text-align: left;
+              
     }
-
+    #inicio article {margin: 50px;}
+    #inicio figure {margin: 50px;}
+    
     body {
         width: max-content;
         max-width: 100%;
         margin: auto;
         background: #2c698d;
+        
     }
-    
-    header nav ul{
+
+    header nav ul {
         position: fixed;
         display: flex;
-        /*flex-direction:row;*/
         justify-content: space-between;
         align-items: center;
         height: 90px;
         background: #bae8e8;
-        /*width: 100%;*/
         padding: 30px;
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
-        /*max-width: 100%;*/
     }
-    
-
-
 }
