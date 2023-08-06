@@ -90,9 +90,9 @@ header nav a img {
 }
 
 body {
-    width: 640px;
+    /**width: 640px;*/
     max-width: 100%;
-    margin: auto;
+    /**margin: auto;*/
     background: #2c698d;
     text-align: center;
 }
@@ -100,7 +100,7 @@ body {
 section {
     min-height: 100vh;
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 
@@ -133,7 +133,9 @@ section {
     align-items: center;
 }
 
-
+#contacto {
+    align-items: center;
+}
 #contacto img {
     height: 90px;
     width: 90px;
@@ -147,9 +149,10 @@ section {
     align-items: center;
     height: 90px;
     background: #bae8e8;
-    width: 100%;
+    width: 95%;
     padding: 70px;
     
+   
 }
 
 /*
@@ -195,17 +198,23 @@ p {
         justify-content: space-between;
         align-items: center;
         text-align: left;
-              
+
     }
-    #inicio article {margin: 50px;}
-    #inicio figure {margin: 50px;}
-    
+
+    #inicio article {
+        margin: 50px;
+    }
+
+    #inicio figure {
+        margin: 50px;
+    }
+
     body {
         width: max-content;
         max-width: 100%;
         margin: auto;
         background: #2c698d;
-        
+
     }
 
     header nav ul {
