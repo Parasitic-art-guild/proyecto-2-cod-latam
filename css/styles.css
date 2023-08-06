@@ -92,9 +92,11 @@ header nav a img {
 body {
     /**width: 640px;*/
     max-width: 100%;
-    /**margin: auto;*/
+    margin: 0px;
+    border: 0px;
     background: #2c698d;
     text-align: center;
+
 }
 
 section {
@@ -135,11 +137,15 @@ section {
 
 #contacto {
     align-items: center;
+    padding-left:5%;
+    
 }
 #contacto img {
     height: 90px;
     width: 90px;
 }
+
+
 
 #contacto ul {
 
@@ -151,7 +157,7 @@ section {
     background: #bae8e8;
     width: 95%;
     padding: 70px;
-    
+        
    
 }
 
