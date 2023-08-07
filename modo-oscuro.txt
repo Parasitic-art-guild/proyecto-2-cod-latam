@@ -1,7 +1,0 @@
-linea 26
-* {color: white;}
-linea 80
-background: #bae8e8; por background: #black;
-linea 99
-background: #2c698d; por background: #black;
-

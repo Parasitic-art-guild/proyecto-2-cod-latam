@@ -22,7 +22,7 @@ cuyos valores asigna por defecto el navegador. */
     /**text-align: center;*/
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -88,7 +88,7 @@ header nav ul {
 
 header nav a img {
     max-height: 75px;
-    
+
 }
 
 body {
@@ -103,7 +103,7 @@ body {
 
 section {
     /*min-height: 100vh;*/
-    padding-top:300px;
+    padding-top: 300px;
     padding-bottom: 50px;
 }
 
@@ -111,11 +111,11 @@ section {
 
 
 #inicio figure img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     box-shadow: 0 10px 25px 8px #272643;
-   
+
 }
 
 
@@ -140,15 +140,16 @@ section {
 
 #contacto {
     align-items: center;
-    padding-left:5%;
-    
+    padding: 15%;
+
 }
+
 #contacto img {
     height: 90px;
     width: 90px;
+    margin: 10px;
+    
 }
-
-
 
 #contacto ul {
 
@@ -158,22 +159,10 @@ section {
     align-items: center;
     height: 150px;
     background: #bae8e8;
-    width: 95%;
-    padding: 30px;
-        
-   
+    width: 100%;
+
 }
 
-/*
-#contacto footer p {
-    background: #af599e;
-    color: #fbfbfb;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
 footer p {
     background: #131221;
     color: #bae8e8;
@@ -189,7 +178,7 @@ footer p {
     background-color: rgba(175, 89, 158, 0.3);
     border-radius: 10%;
     display: flexbox;
-    max-width: 95%;
+    max-width: 100%;
 }
 
 
@@ -226,6 +215,13 @@ p {
 
     }
 
+    section {
+        /*min-height: 100vh;*/
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
     header nav ul {
         position: fixed;
         display: flex;
@@ -237,20 +233,19 @@ p {
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
     }
-    #contacto ul {
 
-        background: #2c698d;
-    
-    }   
+   
     h1 {
-        font-size: 36px;
+        font-size: 48px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
+
     h2 {
-        font-size: 28px;
+        font-size: 32px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
 }
-}
+
+/*modo oscuro */
