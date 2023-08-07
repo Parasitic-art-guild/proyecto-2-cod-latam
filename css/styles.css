@@ -23,7 +23,7 @@ cuyos valores asigna por defecto el navegador. */
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
     font-size: 25px;
-  
+
 }
 
 /* Pagina de donde obtengo la paleta de colores https://colors.muz.li/ */
@@ -111,8 +111,8 @@ section {
 
 
 #inicio figure img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 100%;
     box-shadow: 0 10px 25px 8px #272643;
    
@@ -226,13 +226,6 @@ p {
 
     }
 
-    section {
-        /*min-height: 100vh;*/
-        padding-top:50px;
-        padding-bottom: 50px;
-    }
-    
- 
     header nav ul {
         position: fixed;
         display: flex;
@@ -247,28 +240,17 @@ p {
     #contacto ul {
 
         background: #2c698d;
-        max-width: 800px;
-        width:100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 150px;
-        padding-left: 28%;
-        padding-right: 0%;
-
     
     }   
     h1 {
-        font-size: 48px;
+        font-size: 36px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     h2 {
-        font-size: 32px;
+        font-size: 28px;
         padding-top: 20px;
         padding-bottom: 20px;
-    }
-
-    /*modo oscuro */
+}
 }
