@@ -148,7 +148,7 @@ section {
     height: 90px;
     width: 90px;
     margin: 10px;
-    
+
 }
 
 #contacto ul {
@@ -234,7 +234,7 @@ p {
         width: 100%;
     }
 
-   
+
     h1 {
         font-size: 48px;
         padding-top: 20px;
@@ -246,6 +246,10 @@ p {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-}
 
-/*modo oscuro */
+    #contacto ul {
+
+        background: #2c698d;
+    }
+
+    /*modo oscuro */
