@@ -81,12 +81,14 @@ header nav ul {
     /*width: 100%;*/
     padding: 30px;
     box-shadow: 0 10px 25px 8px #272643;
-    width: 640px;
-    max-width: 100%;
+    width: 100%;
+    min-width: 400px;
+    /*max-width: 100%;*/
 }
 
 header nav a img {
     max-height: 75px;
+    
 }
 
 body {
@@ -100,8 +102,8 @@ body {
 }
 
 section {
-    min-height: 100vh;
-    padding-top: 100px;
+    /*min-height: 100vh;*/
+    padding-top:300px;
     padding-bottom: 50px;
 }
 
@@ -109,10 +111,11 @@ section {
 
 
 #inicio figure img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     box-shadow: 0 10px 25px 8px #272643;
+   
 }
 
 
@@ -153,10 +156,10 @@ section {
     /*flex-direction:row;*/
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 150px;
     background: #bae8e8;
     width: 95%;
-    padding: 70px;
+    padding: 30px;
         
    
 }
@@ -223,6 +226,13 @@ p {
 
     }
 
+    section {
+        /*min-height: 100vh;*/
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    
+ 
     header nav ul {
         position: fixed;
         display: flex;
@@ -234,4 +244,28 @@ p {
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
     }
+    #contacto ul {
+
+        background: #2c698d;
+        max-width: 800px;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        padding-left: 20%;    
+
+    
+    }   
+    h1 {
+        font-size: 48px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 32px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
 }
