@@ -3,8 +3,7 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&display=swap');
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 cuyos valores asigna por defecto el navegador. */
@@ -23,7 +22,6 @@ cuyos valores asigna por defecto el navegador. */
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
     font-size: 20px;
-
 }
 
 /* Pagina de donde obtengo la paleta de colores https://colors.muz.li/ */
@@ -58,7 +56,7 @@ ul {
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
-    color: inherit;
+    /*color: inherit;*/
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -84,7 +82,18 @@ header nav ul {
     width: 100%;
     min-width: 400px;
     /*max-width: 100%;*/
+
 }
+
+header a:hover {
+    background-color: yellow;
+    font-size: xx-large;
+}
+
+header img:hover {
+    background-color: yellow;
+}
+
 
 header nav a img {
     max-height: 75px;
@@ -124,9 +133,9 @@ section {
 }
 
 #inicio a {
-    background: #272643;
-    color: #bae8e8;
-    border-radius: 20%;
+    background-color: #272643;
+    /*color: #bae8e8;*/
+    border-radius: 30%;
     font-size: 20px;
     /*display: inline-block;*/
     width: 200px;
@@ -136,6 +145,12 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    color: #bae8e8;
+}
+
+#inicio a:hover {
+    color: black;
+    background-color: yellow;
 }
 
 #contacto {
@@ -162,6 +177,8 @@ section {
     width: 100%;
 
 }
+
+#contacto img:hover {background-color: yellow;}
 
 footer p {
     background: #131221;
@@ -232,6 +249,8 @@ p {
         padding: 30px;
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
+
+
     }
 
 
@@ -252,4 +271,13 @@ p {
         background: #2c698d;
     }
 
-    /*modo oscuro */
+
+
+}
+
+/*.cambio {
+    background-color: yellow;
+   }*/
+
+
+/*modo oscuro */
