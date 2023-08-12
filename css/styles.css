@@ -66,6 +66,10 @@ button i:hover {
     font-size: xx-large;
 }
 
+.menu-palabras {
+    display: none;
+}
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
@@ -93,7 +97,7 @@ header nav ul {
 /*Cambia el color en header icono dia noche, incio y contacto*/
 header a:hover {
     background-color: yellow;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 /*Define tamaño del icono de modo oscuro*/
@@ -101,6 +105,7 @@ header a:hover {
     width: 35px;
     height: 35px;
 }
+
 /*Realiza cambios en el icono de modo oscuro cuando pasa el mouse por arriba*/
 #icono-modo-oscuro:hover {
     width: 50px;
@@ -231,8 +236,21 @@ p {
         justify-content: space-between;
         align-items: center;
         text-align: left;
-
     }
+
+    /*Cuando no estoy en modo mobil muestra el menu palabras y esconde el menu hamburguesa*/
+    .menu-palabras {
+        display: initial;
+    }
+    /*Cuando no estoy en modo mobil muestra el menu palabras y esconde el menu hamburguesa*/
+    #menu-btn {
+        display: none;
+    }
+
+    #logotipo {
+        max-height: 75px;
+    }
+
 
     #inicio article {
         margin: 50px;
