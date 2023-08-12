@@ -1,17 +1,10 @@
 /* Fonts */
 /* Importar aquí la font */
 
-/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-cuyos valores asigna por defecto el navegador. */
-
-/* Reset */
 * {
-    /* font-family: 'Lato', sans-serif;*/
     font-family: 'Inconsolata', monospace;
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +15,7 @@ cuyos valores asigna por defecto el navegador. */
     /**text-align: center;*/
     /*justify-content: center;*/
     /*rowvertical-align: middle;*/
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Pagina de donde obtengo la paleta de colores https://colors.muz.li/ */
@@ -34,20 +27,19 @@ cuyos valores asigna por defecto el navegador. */
 #2c698d
 */
 
-
 h1 {
+    /*Requerimiento proyecto*/
     font-size: 36px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h2 {
+    /*Requerimiento proyecto*/
     font-size: 28px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -57,7 +49,21 @@ ul {
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
-    /*color: inherit;*/
+    color: inherit;
+}
+
+/*Estilo de boton de menu hamburguesa*/
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: small;
+}
+
+/*Cuando el mause pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
+button i:hover {
+    background-color: yellow;
+    font-size: xx-large;
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -77,38 +83,43 @@ header nav ul {
     align-items: center;
     height: 90px;
     background: #bae8e8;
-    /*width: 100%;*/
     padding: 30px;
     box-shadow: 0 10px 25px 8px #272643;
     width: 100%;
     min-width: 400px;
     /*max-width: 100%;*/
-
 }
 
+/*Cambia el color en header icono dia noche, incio y contacto*/
 header a:hover {
     background-color: yellow;
-    font-size: xx-large;
+    font-size:xx-large;
 }
 
-header img:hover {
+/*Define tamaño del icono de modo oscuro*/
+#icono-modo-oscuro {
+    width: 35px;
+    height: 35px;
+}
+/*Realiza cambios en el icono de modo oscuro cuando pasa el mouse por arriba*/
+#icono-modo-oscuro:hover {
+    width: 50px;
+    height: 50px;
     background-color: yellow;
 }
 
-
-header nav a img {
+/*Ajusta el tamaño maximo del logotipo*/
+#logotipo {
     max-height: 75px;
-
 }
 
 body {
-    /**width: 640px;*/
+    /*width: 640px;*/
     max-width: 100%;
     margin: 0px;
     border: 0px;
     background: #2c698d;
     text-align: center;
-
 }
 
 section {
@@ -117,17 +128,12 @@ section {
     padding-bottom: 50px;
 }
 
-
-
-
 #inicio figure img {
     height: 300px;
     width: 300px;
     border-radius: 100%;
     box-shadow: 0 10px 25px 8px #272643;
-
 }
-
 
 #inicio {
     padding-top: 100px;
@@ -152,6 +158,9 @@ section {
 #inicio a:hover {
     color: black;
     background-color: yellow;
+    width: 230px;
+    height: 58px;
+    font-size: x-large;
 }
 
 #contacto {
@@ -164,8 +173,14 @@ section {
     height: 90px;
     width: 90px;
     margin: 10px;
-
 }
+
+#contacto img:hover {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
 
 #contacto ul {
 
@@ -179,7 +194,9 @@ section {
 
 }
 
-#contacto img:hover {background-color: yellow;}
+#contacto img:hover {
+    background-color: yellow;
+}
 
 footer p {
     background: #131221;
@@ -250,8 +267,6 @@ p {
         padding: 30px;
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
-
-
     }
 
 
