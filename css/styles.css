@@ -52,42 +52,17 @@ a {
     color: inherit;
 }
 
-/*Estilo de boton de menu hamburguesa*/
-button {
-    background: transparent;
-    border: 0;
-    outline: 0;
-    font-size: small;
-}
-
-/*Cuando el mouse pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
-button i:hover {
-    background-color: yellow;
-    font-size: xx-large;
-}
-
 /*En modo mobil el menu de palabras no esta presente*/
 .menu-palabras {
     display: none;
 }
 
-/*El menu mobil inicialmente no esta el boton de cerrar menu hamburgueas*/
+/*En menu mobil inicialmente no esta el boton de cerrar menu hamburgueas*/
 i#close-menu {
     display: none;
 }
 
-/*Estilos que se activan cuando se realiza click al icono de abrir menu hamburguesa*/
-button.movile-menu-active {
-    overflow: hidden;
-}
 
-button.movile-menu-active i#close-menu {
-    display: initial;
-}
-
-button.movile-menu-active i#open-menu {
-    display: none;
-}
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
@@ -98,7 +73,7 @@ button.movile-menu-active i#open-menu {
 }
 */
 
-header nav ul {
+body header nav ul {
     position: fixed;
     display: flex;
     /*flex-direction:row;*/
@@ -113,10 +88,57 @@ header nav ul {
     /*max-width: 100%;*/
 }
 
+/*Estilo de boton de menu hamburguesa*/
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: small;
+}
+
+/*Cuando el mouse pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
+button i:hover {
+    background-color: yellow;
+    font-size: xx-large;
+}
+
 /*Cambia el color en header icono dia noche, incio y contacto*/
 header a:hover {
     background-color: yellow;
     font-size: xx-large;
+}
+
+/*Estilos que se activan cuando se realiza click al icono de abrir menu hamburguesa*/
+header.movile-menu-active {
+    overflow: hidden;
+}
+
+/*Cuando movil-menu-active es activo, aparece el icono close*/
+header.movile-menu-active i#close-menu {
+    display: block;
+}
+
+header.movile-menu-active i#open-menu {
+    display: none;
+}
+
+header.movile-menu-active nav ul {
+    height: 30vh;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    transition: height 0.3s;
+}
+
+header.movile-menu-active .menu-palabras {
+    display: block;
+}
+
+header.movile-menu-active nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+    background-color:aqua;  
 }
 
 /*Define tamaño del icono de modo oscuro*/
@@ -321,13 +343,11 @@ p {
     }
 
     #contacto ul {
-
         background: #2c698d;
     }
-
-
-
 }
+
+
 
 /*.cambio {
     background-color: yellow;
