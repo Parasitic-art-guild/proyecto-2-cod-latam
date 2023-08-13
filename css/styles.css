@@ -60,13 +60,32 @@ button {
     font-size: small;
 }
 
-/*Cuando el mause pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
+/*Cuando el mouse pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
 button i:hover {
     background-color: yellow;
     font-size: xx-large;
 }
 
+/*En modo mobil el menu de palabras no esta presente*/
 .menu-palabras {
+    display: none;
+}
+
+/*El menu mobil inicialmente no esta el boton de cerrar menu hamburgueas*/
+i#close-menu {
+    display: none;
+}
+
+/*Estilos que se activan cuando se realiza click al icono de abrir menu hamburguesa*/
+button.movile-menu-active {
+    overflow: hidden;
+}
+
+button.movile-menu-active i#close-menu {
+    display: initial;
+}
+
+button.movile-menu-active i#open-menu {
     display: none;
 }
 
@@ -242,6 +261,7 @@ p {
     .menu-palabras {
         display: initial;
     }
+
     /*Cuando no estoy en modo mobil muestra el menu palabras y esconde el menu hamburguesa*/
     #menu-btn {
         display: none;
