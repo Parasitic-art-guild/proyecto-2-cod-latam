@@ -84,8 +84,6 @@ body header nav ul {
     padding: 30px;
     box-shadow: 0 10px 25px 8px #272643;
     width: 100%;
-    min-width: 400px;
-    /*max-width: 100%;*/
 }
 
 /*Estilo de boton de menu hamburguesa*/
