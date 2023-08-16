@@ -345,11 +345,34 @@ p {
     }
 }
 
+/*modo-oscuro */
+
+body.modo-oscuro {
+  background: black;
+  color: white;
+}
+
+body.modo-oscuro  header nav ul {
+background: black;
+ box-shadow: 0 10px 25px 8px white;
+}
 
 
-/*.cambio {
-    background-color: yellow;
-   }*/
+body.modo-oscuro header nav ul a:hover {
+    background-color: white;
+    font-size: xx-large;
+    color: black;
+}
 
+body.modo-oscuro header nav ul a#oscuro-btn img:hover {
+    background-color: white;
+    font-size: xx-large;
+    color: black;
+}
 
-/*modo oscuro */
+#contacto img:hover {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    }
