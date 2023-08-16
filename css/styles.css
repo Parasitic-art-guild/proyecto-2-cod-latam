@@ -138,7 +138,7 @@ header.movile-menu-active nav ul {
     align-items: center;
     justify-content: space-around;
     height: 15%;
-    background-color:aqua;  
+    background-color: aqua;
 }
 
 /*Define tamaño del icono de modo oscuro*/
@@ -227,13 +227,13 @@ section {
     height: 70px;
     width: 70px;
     margin: 10px;
-    }
+}
 
 
 #contacto ul {
     display: flex;
     /*flex-direction:row;*/
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     height: 60px;
     background: #bae8e8;
@@ -243,7 +243,7 @@ section {
 
 footer p {
     background: #131221;
-    color: #bae8e8; 
+    color: #bae8e8;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -345,34 +345,94 @@ p {
     }
 }
 
-/*modo-oscuro */
+/*modo-oscuro 
+Dark gray #121212
+Slate gray (#333333)
+Midnight blue (#212121)
+Navy blue (#000080)
+Light gray (#EEEEEE)
+*/
 
 body.modo-oscuro {
-  background: black;
-  color: white;
+    background: #121212;
+    color: #EEEEEE;
 }
 
-body.modo-oscuro  header nav ul {
-background: black;
- box-shadow: 0 10px 25px 8px white;
+body.modo-oscuro header nav ul {
+    background: black;
+    box-shadow: 0 1px 25px 10px #333333;
 }
 
 
 body.modo-oscuro header nav ul a:hover {
-    background-color: white;
+    background-color: #EEEEEE;
+    font-size: xx-large;
+    color: black;
+    }
+
+body.modo-oscuro header nav ul a#oscuro-btn img {
+    background-color: #EEEEEE   ;
     font-size: xx-large;
     color: black;
 }
 
-body.modo-oscuro header nav ul a#oscuro-btn img:hover {
-    background-color: white;
-    font-size: xx-large;
-    color: black;
-}
-
-#contacto img:hover {
-    background-color: white;
+body.modo-oscuro #contacto img:hover {
     height: 70px;
     width: 70px;
     margin: 10px;
-    }
+}
+
+body.modo-oscuro header nav ul li a img#logotipo {
+    box-shadow: 0px 1px 10px 10px #333333;
+    height: 50px;
+}
+
+body.modo-oscuro #inicio figure img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 10px 25px 8px #333333;
+}
+
+body.modo-oscuro main section#inicio ul li article a {
+    background-color: #333333;
+    color: #EEEEEE;
+}
+
+body.modo-oscuro main section#inicio ul li article a:hover {
+    background-color: #EEEEEE;
+    color: #333333;
+}
+
+body.modo-oscuro main section#contacto article {
+    background-color: #333333;
+}
+
+body.modo-oscuro main section#contacto ul {
+    background-color: gray;
+}
+
+
+body.modo-oscuro main section#contacto img:hover {
+    background-color: #EEEEEE;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+body.modo-oscuro footer p{
+    background-color: black;
+color: #EEEEEE;
+}
+
+
+/*body.modo-oscuro img#icono-modo-oscuro
+{
+    background-color:  white;
+    color: white;
+}*/
+
+/*body.modo-oscuro #icono-modo-oscuro:hover {
+    width: 50px;
+    height: 50px;
+}*/
