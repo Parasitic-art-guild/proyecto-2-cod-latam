@@ -19,12 +19,14 @@
 }
 
 /* Pagina de donde obtengo la paleta de colores https://colors.muz.li/ */
-/* https://colors.muz.li/palette/272643/ffffff/e3f6f5/bae8e8/2c698d */
+/* https://colors.muz.li/palette/272643/ffffff/e3f6f5/86b4cf/2c698d */
 /* #272643
 #ffffff
 #e3f6f5
-#bae8e8
+#86b4cf
 #2c698d
+
+#86b4cf
 */
 
 h1 {
@@ -80,7 +82,8 @@ body header nav ul {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    background: #bae8e8;
+    background: #86b4cf;
+    /*background: #86b4cf;*/
     padding: 30px;
     box-shadow: 0 10px 25px 8px #272643;
     width: 100%;
@@ -88,11 +91,11 @@ body header nav ul {
 
 /*Estilo de boton de menu hamburguesa*/
 button {
-    background: transparent;
+    background: #EEEEEE;
     border: 0;
     outline: 0;
     font-size: small;
-    padding-right: 30px;
+    
 }
 
 /*Cuando el mouse pasa sobre los iconos del menu hamburguesa le cambia color y tamano*/
@@ -137,7 +140,7 @@ header.movile-menu-active nav ul {
     align-items: center;
     justify-content: space-around;
     height: 35%;
-    background-color: aqua;
+    background-color: #86b4cf;
 display:block;}
 
 /*Define tamaño del icono de modo oscuro*/
@@ -187,7 +190,7 @@ section {
 
 #inicio a {
     background-color: #272643;
-    /*color: #bae8e8;*/
+    /*color: #86b4cf;*/
     border-radius: 30%;
     font-size: 20px;
     /*display: inline-block;*/
@@ -198,7 +201,7 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    color: #bae8e8;
+    color: #86b4cf;
 }
 
 #inicio a:hover {
@@ -235,14 +238,14 @@ section {
     justify-content: space-evenly;
     align-items: center;
     height: 60px;
-    background: #bae8e8;
+    background: #86b4cf;
     width: 100%;
     margin-top: 10px;
 }
 
 footer p {
     background: #131221;
-    color: #bae8e8;
+    color: #86b4cf;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -320,7 +323,7 @@ p {
         justify-content: space-between;
         align-items: center;
         height: 90px;
-        background: #bae8e8;
+        background: #86b4cf;
         padding: 30px;
         box-shadow: 0 10px 25px 8px #272643;
         width: 100%;
@@ -424,14 +427,9 @@ body.modo-oscuro footer p{
 color: #EEEEEE;
 }
 
+/*modo-oscuro modo mobil*/ 
 
-/*body.modo-oscuro img#icono-modo-oscuro
-{
-    background-color:  white;
-    color: white;
-}*/
+body.modo-oscuro header.movile-menu-active 
 
-/*body.modo-oscuro #icono-modo-oscuro:hover {
-    width: 50px;
-    height: 50px;
-}*/
+
+
