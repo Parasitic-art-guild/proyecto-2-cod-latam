@@ -139,7 +139,7 @@ header.movile-menu-active nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 35%;
+    height: 45%;
     background-color: #86b4cf;
 display:block;}
 
@@ -426,10 +426,4 @@ body.modo-oscuro footer p{
     background-color: black;
 color: #EEEEEE;
 }
-
-/*modo-oscuro modo mobil*/ 
-
-body.modo-oscuro header.movile-menu-active 
-
-
 
