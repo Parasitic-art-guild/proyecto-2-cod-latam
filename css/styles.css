@@ -432,3 +432,7 @@ color: #EEEEEE;
 body.modo-oscuro header.movile-menu-active nav ul li button#menu-btn i:hover {
     background-color: #EEEEEE;  
 }
+
+body.modo-oscuro header nav ul li button#menu-btn i:hover {
+    background-color: #EEEEEE;  
+}
