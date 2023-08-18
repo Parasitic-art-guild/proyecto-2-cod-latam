@@ -406,6 +406,8 @@ body.modo-oscuro main section#inicio ul li article a:hover {
     color: #333333;
 }
 
+
+
 body.modo-oscuro main section#contacto article {
     background-color: #333333;
 }
@@ -427,3 +429,6 @@ body.modo-oscuro footer p{
 color: #EEEEEE;
 }
 
+body.modo-oscuro header.movile-menu-active nav ul li button#menu-btn i:hover {
+    background-color: #EEEEEE;  
+}
